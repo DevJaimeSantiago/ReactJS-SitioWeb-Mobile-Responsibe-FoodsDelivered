@@ -59,7 +59,7 @@ const Navbar = () => {
 				{/* Mobile Menu */}
 				{/* Overlay */}
 				{nav ? (
-					<div className="bg-black/80 fixed w-full h-screen top-0 left-0"></div>
+					<div className="bg-black/80 fixed w-full h-screen top-0 left-0 z-10"></div>
 				) : (
 					""
 				)}
@@ -68,8 +68,8 @@ const Navbar = () => {
 				<div
 					className={
 						nav
-							? "fixed top-0 left-0 w-[300px] h-screen bg-white z-10 duration-500"
-							: "fixed top-0 left-[-100%] w-[300px] h-screen bg-white z-10 duration-500"
+							? "fixed top-0 left-0 w-[300px] h-screen bg-white z-20 duration-500"
+							: "fixed top-0 left-[-100%] w-[300px] h-screen bg-white z-20 duration-500"
 					}
 				>
 					<AiOutlineClose
