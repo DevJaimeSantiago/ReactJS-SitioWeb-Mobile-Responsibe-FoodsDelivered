@@ -1,6 +1,7 @@
 import Navbar from "./components/Navbar"
 import Hero from "./components/Hero"
 import HeadlineCard from "./components/HeadlineCard"
+import Food from "./components/Food"
 
 const App = () => {
   return (
@@ -8,6 +9,7 @@ const App = () => {
     	<Navbar />
 		<Hero />
 		<HeadlineCard />
+		<Food />
 	</div>
   )
 }
